@@ -38,6 +38,7 @@ u=0
 while u == 0
   for i in int1
     for j in int2
+      puts "Product of #{i} and #{j} is #{i*j}"
       if !prod.include? (i*j)
         prod[z] = j * i
         prodarr = inttoarr(prod[z])
@@ -50,6 +51,7 @@ while u == 0
       end
       z += 1
     end
+    # int2.shift(1)
   end
 end
 
